@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="//code.jivosite.com/widget/mm3xh9v8wk" async></script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T7SB5D34');</script>
+  <!-- End Google Tag Manager -->
+  <title>Coding Blocks | LIVE Interactive courses </title>
+  <meta name="description"
+    content="Master regression, supervised clustering and become an expert Machine Learning engineer. You need to be thorough with Python and Mathematics for this course.">
+  <meta name="keywords"
+    content="Master Machine Learning, Master Python, Machine Learning Course Online, Machine Learning course 2022.">
+  <meta name=”robots” content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Favicons -->
+  <link href="favicon.ico" rel="icon">
+  <link href="favicon.ico" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="//fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/unisystem.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/course.css" rel="stylesheet" />
+  <link href="assets/css/aboutus.css" rel="stylesheet" />
+  <link href="assets/css/course-card.css" rel="stylesheet" />
+  <link href="https://unpkg.com/@coding-blocks/motley/dist/online-cb/app.min.css" rel="stylesheet" />
+
+  <!-- google analytics -->
+  <script src="./assets/js/analytics.js"></script>
+  <meta name="facebook-domain-verification" content="pwb4tq5esoy99mxecmd1c2r8mm2ogc">
+  <meta name="p:domain_verify" content="a5c7b03763ef4e1edc5763434ebd9e33">
+  <meta name="B-verify" content="20e6f5e136a370d1852170f4312ba928947cc540">
+  <!-- google analytics -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+
+
+  <style>
+    body {
+      padding: 0;
+    }
+
+    input {
+      border: none;
+      border-bottom: solid 1px #E95547;
+      background: #15171E;
+      padding: 10px 0px;
+    }
+  
+    .blurrer {
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #939393;
+      opacity: 0.5;
+    }
+  
+  
+    .cb-login-signup-container {
+      background: #15171E;
+      color: white;
+      width: 100%;
+      padding: 5rem 3rem 3rem 3rem;
+      font-family: 'Mulish';
+      transition: 0.5s;
+      border-radius: 15px;
+      border: 1px solid #373E4F;
+    }
+  
+    .btn {
+      padding: 10px 10px;
+      border-radius: 3px;
+    }
+  
+    
+    .btn.btn-primary {
+      background: linear-gradient(90deg, #F26A3E 0%, #FB8133 100%);
+    }
+    
+    .btn.btn-secondary {
+      background: #15171E;
+      border: 1px solid #373E4F;
+    }
+    
+    .btn:disabled{
+      background: #939393;
+    }
+  
+    .cb-logo {
+      width: 20px;
+    }
+  
+    .logo-text {
+      display: inline-block;
+      transform: translate(5px, -4px);
+    }
+  
+    .header {
+      font-size: 20px;
+    }
+  
+    .hr {
+      display: inline-block;
+      width: 40%;
+      border: solid 0.5px #373E4F;
+    }
+  
+    .sub-header {
+      font-size: 12px;
+      color: #BDBDBD;
+    }
+  
+    .social-media-logo {
+      width: 15px;
+    }
+  </style>
+  
+
+  
+</head>
+
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7SB5D34" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+  <!-- ======= Header ======= -->
+  <header id="header"></header>
+  <!-- End Header -->
+
+   
+
+
+  <script type="module">
+    const vueApp = new Vue({
+      el: '#cb-login-signup',
+      data: { 
+        googleLoginUrl: `https://account.codingblocks.com/login/google/v2?redirect_uri=https://online.codingblocks.com&client=dotcom-codingblocks&client_id=5402336263`,
+        facebookLoginUrl: `https://account.codingblocks.com/login/facebook/v2?redirect_uri=https://online.codingblocks.com&client=dotcom-codingblocks&client_id=5402336263`,
+        loginFlow: 'email',
+        otp: null,
+        otpId: null,
+        email: null,
+        mobile: null,
+        show: false,
+        errorMessage: null,
+        display: 'redbox' 
+      },
+      methods: {
+        async sendOtp () {
+          this.errorMessage = null
+          try {
+            const response = await axios.post(`https://app.codingblocks.com/login/otp/${this.loginFlow}`, {
+              mobile: this.mobile,
+              email: this.email
+            })
+            this.otpId = response.data.Details || response.data.id
+          } catch(err) {
+            this.errorMessage = err.response?.data?.message || err.response?.data?.Details
+          }
+        },
+        async verifyOtp() {
+          this.errorMessage = null
+          try {
+            const response = await axios.post(`https://app.codingblocks.com/login/verify/otp/${this.loginFlow}`, {
+              mobile: this.mobile,
+              email: this.email,
+              otp: this.otp,
+              otp_id: this.otpId
+            })
+            window.location = 'https://online.codingblocks.com/courses'
+          } catch(err) {
+            this.errorMessage = err.response?.data?.message || err.response?.data?.Details
+          }
+        }
+      }
+    })
+  </script>
+  <div class="container">
+    <div id="cb-login-signup" class="cb-login-signup-container my-4 col-12 col-md-6 mx-auto">
+      <div>
+        <div class="d-flex justify-content-between align-items-center mb-5" >
+          <h2>Login / Signup</h2>
+        </div>
+    
+        <div class="mb-4">Sign In with 
+          <button v-bind:class="{red: loginFlow === 'email'}" @click="loginFlow = 'email'">Email</button>
+          Or
+          <button v-bind:class="{red: loginFlow === 'mobile'}" @click="loginFlow = 'mobile'">Mobile</button> 
+        </div>
+        
+        <div v-if="errorMessage" class="red">{{errorMessage}}</div>
+        
+        <div v-if="loginFlow === 'email'">
+          <div v-if="!!otpId">
+            <input type="number" placeholder="Enter OTP" class="w-100 mb-4" v-model="otp"/>
+            <button class="btn btn-primary w-100" :disabled="!!!otp" @click="verifyOtp">Verify OTP</button>
+          </div>
+          <div v-else>
+            <input type="email" placeholder="Enter Email" class="w-100 mb-4" v-model="email"/>
+            <button class="btn btn-primary w-100" :disabled="!!!email" @click="sendOtp">Send OTP {{otp}}</button>
+          </div>
+        </div>
+        <div v-else>
+          <div v-if="!!otpId">
+            <input type="number" placeholder="Enter OTP" class="w-100 mb-4" v-model="otp"/>
+            <button class="btn btn-primary w-100" :disabled="!!!otp" @click="verifyOtp">Verify OTP</button>
+          </div>
+          <div v-else>
+            <input type="number" placeholder="Enter 10 digit Mobile Number" class="w-100 mb-4" v-model="mobile"/>
+            <button class="btn btn-primary w-100" :disabled="!!!mobile" @click="sendOtp">Send OTP</button>
+          </div>
+        </div>
+    
+        <div class="d-flex justify-content-center align-items-center" style="margin: 30px 0px;">
+          <span class="hr"></span>
+          <span class="px-5">OR</span>
+          <span class="hr"></span>
+        </div>
+        <a href="https://account.codingblocks.com/login/google/v2?redirect_uri=https://online.codingblocks.com/courses&client=dotcom-codingblocks&client_id=5402336263">
+          <button class="btn btn-secondary white w-100 mb-3">
+            <img class="logo" src="https://minio.codingblocks.com/public/google-logo.png" alt="">
+            <span class="ml-2">Sign in with Google</span>
+          </button>
+        </a>
+        <a href="https://account.codingblocks.com/login/facebook/v2?redirect_uri=https://online.codingblocks.com/courses&client=dotcom-codingblocks&client_id=5402336263">
+          <button  class="btn btn-secondary white w-100 mb-5">
+            <img class="logo" src="https://minio.codingblocks.com/public/facebook-logo.png" alt="">
+            <span class="ml-2">Sign in with facebook</span>
+          </button>
+        </a>
+    
+        <!-- <div class="mb-5 pt-5">
+          <div class="header">Find your dream job</div>
+          <div class="sub-header mb-4">Trusted by 100k+ students</div>
+          <img src="https://minio.codingblocks.com/public/company-logo-group.png" alt="">
+        </div>
+    
+        <div class="position-absolute">
+          <a href="https://www.linkedin.com/school/codingblocksindia/" target="_blank">
+            <img class="social-media-logo mr-2" src="https://minio.codingblocks.com/public/linkedin-logo.png" alt="">
+          </a>
+          <a href="https://x.com/codingblocksIN" target="_blank">
+            <img class="social-media-logo mr-2" src="https://minio.codingblocks.com/public/twitter-logo.png" alt="">
+          </a>
+          <a href="https://github.com/coding-blocks" target="_blank">
+            <img class="social-media-logo" src="https://minio.codingblocks.com/public/github-logo.png" alt="">
+          </a>
+          <div>
+            <a href="https://codingblocks.com/tos.html" class="sub-header" target="_blank"> Coding Blocks | Terms of service</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/header.js"></script>
+</body>
+
+</html>
